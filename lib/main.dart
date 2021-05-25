@@ -130,7 +130,6 @@ class _QuizPageState extends State<QuizPage> {
               ),
               onPressed: () {
                 setState(() {
-                  // ignore: unused_local_variable
                   checkAnswer(true);
                 });
               },
@@ -152,7 +151,6 @@ class _QuizPageState extends State<QuizPage> {
               onPressed: () {
                 setState(() {
                   checkAnswer(false);
-                  // ignore: unused_local_variable
                 });
               },
             ),
@@ -172,7 +170,6 @@ class _QuizPageState extends State<QuizPage> {
               ),
               onPressed: () {
                 setState(() {
-                  // ignore: unused_local_variable
                   checkAnswer(null);
                 });
               },
